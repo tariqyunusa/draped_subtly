@@ -1,0 +1,13 @@
+const tl = gsap.timeline()
+
+tl.from('.header', {opacity: 0, x: -2000, duration: 3})
+   .from('.logo', {opacity: 0, x: -100, duration: 1})
+//    .from('.ul', {opacity: 0, x: 500, duration: 1, stagger: 2} )
+   .from('.li', {opacity: 0, x: 500, duration: 1, stagger: 1} )
+   .from('.container', {opacity: 0, x: -2000, duration: 1})
+   .from('.container-left', {opacity: 0, y: -2000, duration: 1})
+   .from('.specification', {opacity:0, x: -200, })
+   .from('.sizes', {opacity:0, x: -200, })
+   .from('.material', {opacity:0, x: -200, })
+   .from('.container-right', {opacity:0, x: 100, duration:1})
+   .from('.end', {opacity:0, y: -100, duration:3})
